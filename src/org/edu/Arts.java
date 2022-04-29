@@ -18,7 +18,10 @@ public class Arts extends Education {
 		}
 	public void pg() {
 			System.out.println("PG:300 Students");
-		}	
+		}
+	public void be() {
+		System.out.println("PG:300 Students");
+	}
 	
 	public static void main(String[] args) {
 		Arts c = new Arts();
@@ -28,5 +31,6 @@ public class Arts extends Education {
 		c.bba();
 		c.ug();
 		c.pg();
+		c.be();
 		}
 }
